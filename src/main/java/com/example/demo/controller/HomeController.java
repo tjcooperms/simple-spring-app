@@ -14,5 +14,6 @@ public class HomeController {
     public String monitor() throws Exception {
         String test = null;
         test.toString();
+        return "";
     }
 }
