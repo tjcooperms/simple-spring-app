@@ -11,7 +11,7 @@ public class HomeController {
         return "Hello from Azure App Service (in the staging slot)!";
     }
      @GetMapping("/monitor")
-    public String home() {
+    public String monitor() {
         throw new Exception();
     }
 }
